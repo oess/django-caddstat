@@ -1,0 +1,4 @@
+.tox
+MANIFEST
+django_caddstat.egg-info
+dist
