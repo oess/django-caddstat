@@ -8,7 +8,7 @@ Roadmap
 -------
 
 The aim of CADD Stat is to cover all the statistics covered in the
-`placement <https://openeye.app.box.com/s/wjkd01azigh4ie6q7f64>`_ that was present at the conference.
+`placemat <https://openeye.app.box.com/s/wjkd01azigh4ie6q7f64>`_ that was present at the conference.
 
 Bugs
 ----
