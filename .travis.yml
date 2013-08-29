@@ -18,3 +18,7 @@ install:
   - python setup.py -q install
 
 script: python runtests.py
+
+notifications:
+  email:
+    - craig@eyesopen.com
