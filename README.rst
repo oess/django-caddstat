@@ -69,6 +69,13 @@ Multiple installation steps are required because of the way the scientific pytho
 Numpy and SciPy have multiple system dependencies (e.g. Fortran) which must be met before using pip. Read more on the
 `SciPy <http://www.scipy.org/install.html>`_ website.
 
+To install the development version of CADD Stat you must install like this::
+
+  pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat
+  pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[numpy]
+  pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[statslibs]
+  pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[statsmodels]
+
 Create or use an existing Django project::
 
   pip install django
