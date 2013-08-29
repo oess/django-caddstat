@@ -6,6 +6,11 @@ python:
 env:
   - DJANGO=1.4
   - DJANGO=1.5
+  - DJANGO=dev
+
+matrix:
+  allow_failures:
+    - env: DJANGO=dev
 
 before_install:
  - sudo apt-get install -qq libblas-dev liblapack-dev libatlas-dev gfortran
