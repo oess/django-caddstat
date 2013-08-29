@@ -2,6 +2,9 @@ django-caddstat
 ===============
 
 .. image:: https://travis-ci.org/oess/django-caddstat.png?branch=master
+     :target: https://travis-ci.org/oess/django-caddstat
+.. image:: https://coveralls.io/repos/oess/django-caddstat/badge.png?branch=master
+    :target: https://coveralls.io/r/oess/django-caddstat
 
 Statistics for your Computer Aided Drug Design projects as a django specific package. View CADD Stat
 now: http://caddstat.eyesopen.com

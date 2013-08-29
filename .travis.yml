@@ -21,10 +21,14 @@ install:
   - pip install -q scipy --use-mirrors
   - pip install -q matplotlib pandas scikit-learn patsy --use-mirrors
   - pip install -q statsmodels==0.5.0rc1 --use-mirrors
+  - pip install -q python-coveralls
   - python setup.py -q install
 
-script: python runtests.py
+script: coverage run runtests.py
 
 notifications:
   email:
     - craig@eyesopen.com
+
+after_success:
+  - coveralls
