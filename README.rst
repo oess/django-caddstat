@@ -34,7 +34,9 @@ the same license as CADD Stat. To create suitable development environment in a v
   # or
   python setup.py test
 
-You can test against multiple django versions by running ``tox``.
+You can test against multiple django versions by running ``tox``. Check our test coverage by running::
+
+  coverage run runtests.py
 
 Licensing
 ---------
