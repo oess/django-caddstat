@@ -31,7 +31,7 @@ setup(
         'django-celery',
         'django-analytical',
         # Invalid versioning breaks pip
-        'pytz<=2013b',
+        'pytz<=2013d',
     ],
     extras_require={
         'numpy': ['numpy'],
