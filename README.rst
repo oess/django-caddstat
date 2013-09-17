@@ -1,6 +1,8 @@
 django-caddstat
 ===============
 
+.. image:: https://pypip.in/v/django-caddstat/badge.png
+   :target: https://crate.io/packages/django-caddstat/
 .. image:: https://travis-ci.org/oess/django-caddstat.png?branch=master
      :target: https://travis-ci.org/oess/django-caddstat
 .. image:: https://coveralls.io/repos/oess/django-caddstat/badge.png?branch=master
