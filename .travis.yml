@@ -18,8 +18,8 @@ before_install:
 install:
   - pip install -q --use-mirrors $DJANGO_VERSION
   - pip install -q numpy --use-mirrors
-  - pip install -q scipy --use-mirrors
-  - pip install -q matplotlib --use-mirrors
+  - pip install scipy --use-mirrors
+  - pip install matplotlib --use-mirrors
   - pip install -q pandas --use-mirrors
   - pip install -q scikit-learn --use-mirrors
   - pip install -q patsy --use-mirrors
