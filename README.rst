@@ -115,9 +115,6 @@ a local webserver with::
 Note CADD Stat uses `Celery <http://www.celeryproject.org/>`_ to place all statistical tests in a queue. The above example
 does *not* use celery.
 
-.. todo::
-    Include basic celery setup details
-
 The feedback form (http://127.0.0.1:8000/feedback/) will send an email to the address specified in the setting
 ``CADDSTAT_FEEDBACK_EMAIL``, the default is test@example.com. Set a new value in your ``settings.py``. Ensure you have
 configured a email backend within your project first, see https://docs.djangoproject.com/en/dev/topics/email/ for more
