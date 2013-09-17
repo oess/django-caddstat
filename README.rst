@@ -60,6 +60,10 @@ Acknowledgements
 Change Log
 ----------
 
+* 0.1.1 (X/X/13)
+
+  * Stub for next release
+
 * 0.1 (09/16/13)
 
   * Initial release with feedback from the GRC conference.
