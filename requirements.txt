@@ -1,7 +1,7 @@
 ## CADD Stat python library requirements
 
 Django==1.5.4                   # Web framework                     # BSD
-pytz==2013d                     # Timezones                         # MIT
+pytz==2013.7                    # Timezones                         # MIT
 South==0.8.2                    # Database migrations               # Apache
 celery==3.0.23                  # Task management                   # BSD
 django-celery==3.0.23           # Task management                   # BSD
