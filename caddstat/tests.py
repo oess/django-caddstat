@@ -66,7 +66,7 @@ Two-sided Pr > |Z|        0.2301
     def test_pearson(self):
 
         rvalue, pvalue = task_pearson(self.dataOne, self.dataTwo)
-        self.assertEqual(-0.15131761015151463, rvalue)
+        self.assertEqual(-0.1513176101515146, rvalue)
         self.assertEqual(0.90329675876735349, pvalue)
 
     def test_paired_t(self):
