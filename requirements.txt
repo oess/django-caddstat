@@ -6,7 +6,7 @@ South==0.8.2                    # Database migrations               # Apache
 celery==3.0.24                  # Task management                   # BSD
 django-celery==3.0.23           # Task management                   # BSD
 django-analytical==0.15.0       # Tracking                          # MIT
-numpy==1.7.1                    # For matplotlib                    # BSD
+numpy==1.8.0                    # For matplotlib                    # BSD
 scipy==0.13.0                   # Statistics                        # BSD
 patsy==0.2.1                    # prereq for statsmodels            # BSD
 statsmodels==0.5.0rc1           # statistical computations          # BSD

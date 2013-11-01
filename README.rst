@@ -86,7 +86,6 @@ Numpy and SciPy have multiple system dependencies (e.g. Fortran) which must be m
 To install the development version of CADD Stat you must install like this::
 
   pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat
-  pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[numpy]
   pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[statslibs]
   pip install -e git+https://github.com/oess/django-caddstat.git#egg=django-caddstat[statsmodels]
 

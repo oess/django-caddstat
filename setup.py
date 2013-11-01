@@ -33,8 +33,8 @@ setup(
         'pytz',
     ],
     extras_require={
-        'numpy': ['numpy'],
         'statslibs': [
+            'numpy',
             'scipy',
             'matplotlib',
             'pandas',
