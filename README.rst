@@ -21,7 +21,7 @@ Bugs
 ----
 
 If you find a bug please send feedback via the app `itself <http://caddstat.eyesopen.com/feedback/>`_, or log an
-`issue <https://github.com/oess/django-caddstat/issues>`_. If you know how to fix the bug feel free to make to fork
+`issue <https://github.com/oess/django-caddstat/issues>`_. If you know how to fix the bug feel free to fork
 the repo and submit a pull request, see below.
 
 Contributing
@@ -29,8 +29,9 @@ Contributing
 
 Contributions are welcome as a pull request. Do not forget to add yourself to the AUTHORS file. Learn more
 about GitHub `pull requests <https://help.github.com/articles/using-pull-requests>`_. All contributions are subject
-the same license as CADD Stat. To create suitable development environment in a virtualenv run
-``pip install -r requirements.txt``. Please run the test suite before submitting a pull request::
+the same `license <https://github.com/oess/django-caddstat/blob/master/LICENSE>`_ as CADD Stat. To create suitable
+development environment in a virtualenv run ``pip install -r requirements.txt``. Please run the test suite before
+submitting a pull request::
 
   python runtests.py
   # or
@@ -75,7 +76,6 @@ Installation
 Grab the latest released version from PyPi and install into a `virtualenv <http://www.virtualenv.org>`_::
 
   pip install django-caddstat
-  pip install django-caddstat[numpy]
   pip install django-caddstat[statslibs]
   pip install django-caddstat[statsmodels]
 
@@ -111,16 +111,15 @@ Add an entry to your project ``urls.py``::
         ...
     )
 
-
 In this example CADD Stat will now be available on the root of your web site, e.g. http://127.0.0.1:8000. You can start
 a local webserver with::
 
  python manage.py runserver 8000
 
-Note CADD Stat uses `Celery <http://www.celeryproject.org/>`_ to place all statistical tests in a queue. The above example
-does *not* use celery.
+Note CADD Stat uses `Celery <http://www.celeryproject.org/>`_ to place all statistical tests in a queue. The above
+example does *not* use celery.
 
 The feedback form (http://127.0.0.1:8000/feedback/) will send an email to the address specified in the setting
-``CADDSTAT_FEEDBACK_EMAIL``, the default is test@example.com. Set a new value in your ``settings.py``. Ensure you have
-configured a email backend within your project first, see https://docs.djangoproject.com/en/dev/topics/email/ for more
-information.
+``CADDSTAT_FEEDBACK_EMAIL``, the default is ``test@example.com``. Set a new value in your ``settings.py``. Ensure you
+have configured a email backend within your project first, see the django
+`docs <https://docs.djangoproject.com/en/dev/topics/email>`_ for more information.
