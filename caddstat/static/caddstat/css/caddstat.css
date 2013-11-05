@@ -1,5 +1,6 @@
 /*Reduced CSS to work with Bootstrap*/
 
 body {
-    padding-top: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
