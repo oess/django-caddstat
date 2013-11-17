@@ -3,3 +3,4 @@ MANIFEST
 django_caddstat.egg-info
 dist
 .coverage
+.env
