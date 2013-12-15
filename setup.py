@@ -28,7 +28,6 @@ setup(
     ],
     install_requires=[
         'celery',
-        'django-celery',
         'django-analytical',
         'pytz',
     ],
