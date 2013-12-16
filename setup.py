@@ -35,7 +35,7 @@ setup(
         'statslibs': [
             'numpy',
             'scipy',
-            'matplotlib',
+#            'matplotlib',
             'pandas',
             'scikit-learn',
             'patsy',
