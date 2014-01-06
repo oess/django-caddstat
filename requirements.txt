@@ -16,3 +16,4 @@ tox==1.6.1                      # Testing                           # MIT
 detox==0.9.3                    # Testing                           # AGPLV3
 python-coveralls==2.4.2         # Coverage                          # Apache
 pyroma==1.5                     # Python packaging                  # MIT
+twine==1.2.2                    # Secure PyPI                       # Apache
