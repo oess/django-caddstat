@@ -15,3 +15,4 @@ scikit-learn==0.14.1            # ML/stats                          # BSD
 tox==1.6.1                      # Testing                           # MIT
 detox==0.9.3                    # Testing                           # AGPLV3
 python-coveralls==2.4.2         # Coverage                          # Apache
+pyroma==1.5                     # Python packaging                  # MIT

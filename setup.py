@@ -11,6 +11,7 @@ setup(
     description='Bringing statistics to your CADD projects',
     long_description=open('README.rst').read(),
     license='BSD',
+    keywords='CADD statistics django drug discovery',
     include_package_data=True,
     test_suite='runtests.runtests',
     zip_safe=False,
