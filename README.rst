@@ -1,12 +1,19 @@
 django-caddstat
 ===============
 
-.. image:: https://badge.fury.io/py/django-caddstat.png
-    :target: http://badge.fury.io/py/django-caddstat
+.. image:: https://pypip.in/v/django-caddstat/badge.png
+    :target: https://pypi.python.org/pypi/django-caddstat/
+    :alt: Latest Version
 .. image:: https://travis-ci.org/oess/django-caddstat.png?branch=master
     :target: https://travis-ci.org/oess/django-caddstat
 .. image:: https://coveralls.io/repos/oess/django-caddstat/badge.png?branch=master
     :target: https://coveralls.io/r/oess/django-caddstat
+.. image:: https://pypip.in/egg/django-caddstat/badge.png
+    :target: https://pypi.python.org/pypi/django-caddstat/
+.. image:: https://pypip.in/wheel/django-caddstat/badge.png
+    :target: https://pypi.python.org/pypi/django-caddstat/
+.. image:: https://pypip.in/license/django-caddstat/badge.png
+    :target: https://pypi.python.org/pypi/django-caddstat/
 
 Statistics for your Computer Aided Drug Design projects as a django specific package. View CADD Stat
 now: http://caddstat.eyesopen.com
