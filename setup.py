@@ -1,5 +1,13 @@
-
+import os
 from setuptools import setup, find_packages
+import sys
+
+if sys.argv[-1] == 'publish':
+    os.system("python setup.py sdist upload")
+    os.system("python setup.py bdist_wheel upload")
+    print("  git tag -a {0} -m 'version {0}'".format(__import__('caddstat').__version__))
+    print("  git push --tags")
+    sys.exit()
 
 setup(
     name='django-caddstat',
