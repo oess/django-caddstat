@@ -35,7 +35,8 @@ Contributing
 ------------
 
 Contributions are welcome as a pull request. Do not forget to add yourself to the AUTHORS file. Learn more
-about GitHub `pull requests <https://help.github.com/articles/using-pull-requests>`_. All contributions are subject
+about GitHub `pull requests <https://help.github.com/articles/using-pull-requests>`_ or read this guide abou the GitHub
+`workflow <http://guides.github.com/overviews/flow/>`_. All contributions are subject
 the same `license <https://github.com/oess/django-caddstat/blob/master/LICENSE>`_ as CADD Stat. To create suitable
 development environment in a virtualenv run ``pip install -r requirements.txt``. Please run the test suite before
 submitting a pull request::
