@@ -130,3 +130,8 @@ The feedback form (http://127.0.0.1:8000/feedback/) will send an email to the ad
 ``CADDSTAT_FEEDBACK_EMAIL``, the default is ``test@example.com``. Set a new value in your ``settings.py``. Ensure you
 have configured a email backend within your project first, see the django
 `docs <https://docs.djangoproject.com/en/dev/topics/email>`_ for more information.
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/oess/django-caddstat/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
