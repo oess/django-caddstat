@@ -2,6 +2,8 @@
 Wrapper all tasks to the same module
 """
 
+# flake8: noqa
+
 from .mad import task_mad
 from .tau import task_tau
 from .pearson import task_pearson

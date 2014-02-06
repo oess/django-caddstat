@@ -9,7 +9,6 @@ def task_friedman(dataOne, dataTwo, dataThree):
     http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.friedmanchisquare.html
     """
 
-    chi, pvalue = friedmanchisquare(array(dataOne),
-                               array(dataTwo), array(dataThree))
+    chi, pvalue = friedmanchisquare(array(dataOne), array(dataTwo), array(dataThree))
 
     return chi, pvalue
