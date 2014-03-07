@@ -3,7 +3,7 @@
 Django==1.6.2                   # Web framework                     # BSD
 pytz==2013.9                    # Timezones                         # MIT
 South==0.8.4                    # Database migrations               # Apache
-celery==3.1.8                   # Task management                   # BSD
+celery==3.1.9                   # Task management                   # BSD
 django-analytical==0.16.0       # Tracking                          # MIT
 numpy==1.8.0                    # For matplotlib                    # BSD
 scipy==0.13.3                   # Statistics                        # BSD
@@ -16,6 +16,6 @@ tox==1.7.0                      # Testing                           # MIT
 detox==0.9.3                    # Testing                           # AGPLV3
 python-coveralls==2.4.2         # Coverage                          # Apache
 pyroma==1.5                     # Python packaging                  # MIT
-twine==1.2.2                    # Secure PyPI                       # Apache
+twine==1.2.3                    # Secure PyPI                       # Apache
 wheel==0.22.0                   # Wheel packaging                   # MIT
 flake8==2.1.0                   # Check your code                   # MIT
