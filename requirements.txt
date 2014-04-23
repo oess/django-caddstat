@@ -15,7 +15,7 @@ scikit-learn==0.14.1            # ML/stats                          # BSD
 tox==1.7.1                      # Testing                           # MIT
 detox==0.9.3                    # Testing                           # AGPLV3
 python-coveralls==2.4.2         # Coverage                          # Apache
-pyroma==1.5                     # Python packaging                  # MIT
+pyroma==1.6                     # Python packaging                  # MIT
 twine==1.3.1                    # Secure PyPI                       # Apache
 wheel==0.23.0                   # Wheel packaging                   # MIT
 flake8==2.1.0                   # Check your code                   # MIT
