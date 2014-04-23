@@ -122,7 +122,7 @@ class FeedbackTest(TestCase):
             'message': 'feedback',
         }
 
-        response = self.client.post(reverse('caddstat.views.feedback'), form_data)
+        response = self.client.post(reverse('feedback'), form_data)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.templates[0].name, 'caddstat/emails/feedback.txt')
         self.assertEqual(response.templates[1].name, 'caddstat/feedbackthanks.html')
