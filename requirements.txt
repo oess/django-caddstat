@@ -1,6 +1,6 @@
 ## CADD Stat python library requirements
 
-Django==1.6.3                   # Web framework                     # BSD
+Django==1.6.4                   # Web framework                     # BSD
 pytz==2014.2                    # Timezones                         # MIT
 South==0.8.4                    # Database migrations               # Apache
 celery==3.1.11                  # Task management                   # BSD
