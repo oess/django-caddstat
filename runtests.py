@@ -17,12 +17,19 @@ if not settings.configured:
             'caddstat',
             'analytical',
         ),
+        MIDDLEWARE_CLASSES=('django.middleware.common.CommonMiddleware',
+                            'django.middleware.csrf.CsrfViewMiddleware'),
         SITE_ID=1,
         SECRET_KEY='this-is-just-for-tests-so-not-that-secret',
         ROOT_URLCONF = 'caddstat.urls',
         CADDSTAT_FEEDBACK_EMAIL='test@example.com',
     )
 
+import django
+try:
+    django.setup()
+except AttributeError:
+    pass
 
 from django.test.utils import get_runner
 
