@@ -18,6 +18,7 @@ before_install:
  - sudo apt-get install -qq libblas-dev liblapack-dev libatlas-dev gfortran
 
 install:
+  - pip install -q -U pip
   - pip install -q --use-mirrors $DJANGO_VERSION
   - pip install -q --use-mirrors -r requirements.txt
   - pip install -q statsmodels --use-mirrors
