@@ -7,6 +7,7 @@ env:
   - DJANGO_VERSION=Django==1.4
   - DJANGO_VERSION=Django==1.5
   - DJANGO_VERSION=Django==1.6
+  - DJANGO_VERSION=Django==1.7
   - DJANGO_VERSION=git+https://github.com/django/django.git@master
 
 matrix:
@@ -24,7 +25,7 @@ install:
   - pip install -q pandas --use-mirrors
   - pip install -q scikit-learn --use-mirrors
   - pip install -q patsy --use-mirrors
-  - pip install -q statsmodels==0.5.0rc1 --use-mirrors
+  - pip install -q statsmodels==0.5.0 --use-mirrors
   - pip install -q python-coveralls --use-mirrors
   - python setup.py -q install
 
