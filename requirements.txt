@@ -1,6 +1,5 @@
 ## CADD Stat python library requirements
 
-Django==1.6.7                   # Web framework                     # BSD
 pytz==2014.7                    # Timezones                         # MIT
 South==1.0                      # Database migrations               # Apache
 celery==3.1.13                  # Task management                   # BSD
@@ -8,8 +7,6 @@ django-analytical==0.19.0       # Tracking                          # MIT
 numpy==1.8.2                    # For matplotlib                    # BSD
 scipy==0.14.0                   # Statistics                        # BSD
 patsy==0.3.0                    # prereq for statsmodels            # BSD
-statsmodels==0.5.0              # statistical computations          # BSD
-#matplotlib==1.4.0               # Graphs                            # PSF
 pandas==0.14.1                  # Data handling                     # BSD
 scikit-learn==0.15.1            # ML/stats                          # BSD
 tox==1.7.2                      # Testing                           # MIT
