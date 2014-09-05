@@ -8,8 +8,6 @@ django-caddstat
     :target: https://travis-ci.org/oess/django-caddstat
 .. image:: https://coveralls.io/repos/oess/django-caddstat/badge.png?branch=master
     :target: https://coveralls.io/r/oess/django-caddstat
-.. image:: https://pypip.in/egg/django-caddstat/badge.png
-    :target: https://pypi.python.org/pypi/django-caddstat/
 .. image:: https://pypip.in/wheel/django-caddstat/badge.png
     :target: https://pypi.python.org/pypi/django-caddstat/
 .. image:: https://pypip.in/license/django-caddstat/badge.png
