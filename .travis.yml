@@ -27,6 +27,7 @@ install:
   - pip install -q patsy
   - pip install -q statsmodels
   - pip install -q python-coveralls
+  - pip install -q django-analytical
 
 script: coverage run runtests.py
 
