@@ -23,11 +23,9 @@ install:
   - pip install -q numpy
   - pip install scipy
   - pip install -q pandas
-  - pip install -q scikit-learn
-  - pip install -q patsy
+  - pip install -q scikit-learn patsy
   - pip install -q statsmodels
-  - pip install -q python-coveralls
-  - pip install -q django-analytical
+  - pip install -q python-coveralls django-analytical celery pytz
 
 script: coverage run runtests.py
 
