@@ -3,6 +3,8 @@ language: python
 python:
   - 2.7
 
+cache: apt
+
 env:
   - DJANGO_VERSION=Django==1.4
   - DJANGO_VERSION=Django==1.5
@@ -20,12 +22,13 @@ before_install:
 install:
   - pip install -q -U pip
   - pip install -q $DJANGO_VERSION
-  - pip install -q numpy
-  - pip install scipy
-  - pip install -q pandas
-  - pip install -q scikit-learn patsy
-  - pip install -q statsmodels
-  - pip install -q python-coveralls django-analytical celery pytz
+  - pip install -r requirements.txt
+#  - pip install -q numpy
+#  - pip install scipy
+#  - pip install -q pandas
+#  - pip install -q scikit-learn patsy
+#  - pip install -q statsmodels
+#  - pip install -q python-coveralls django-analytical celery pytz
 
 script: coverage run runtests.py
 
