@@ -21,7 +21,7 @@ if not settings.configured:
                             'django.middleware.csrf.CsrfViewMiddleware'),
         SITE_ID=1,
         SECRET_KEY='this-is-just-for-tests-so-not-that-secret',
-        ROOT_URLCONF = 'caddstat.urls',
+        ROOT_URLCONF='caddstat.urls',
         CADDSTAT_FEEDBACK_EMAIL='test@example.com',
     )
 
