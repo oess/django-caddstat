@@ -1,13 +1,13 @@
 from celery.task import task
-from statsmodels.robust import stand_mad
+from statsmodels.robust import mad
 
 
 @task
 def task_mad(data):
     """
-    http://statsmodels.sourceforge.net/devel/generated/statsmodels.robust.scale.stand_mad.html
+    http://statsmodels.sourceforge.net/devel/generated/statsmodels.robust.scale.mad.html
     """
 
-    mad = stand_mad(data)
+    mad_value = mad(data)
 
-    return mad
+    return mad_value
