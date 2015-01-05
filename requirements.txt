@@ -1,18 +1,19 @@
 ## CADD Stat python library requirements
 
-pytz==2014.7                    # Timezones                         # MIT
-South==1.0                      # Database migrations               # Apache
-celery==3.1.13                  # Task management                   # BSD
+pytz==2014.10                   # Timezones                         # MIT
+South==1.0.2                    # Database migrations               # Apache
+celery==3.1.17                  # Task management                   # BSD
 django-analytical==0.19.0       # Tracking                          # MIT
-numpy==1.8.2                    # For matplotlib                    # BSD
+numpy==1.9.1                    # For matplotlib                    # BSD
 scipy==0.14.0                   # Statistics                        # BSD
 patsy==0.3.0                    # prereq for statsmodels            # BSD
-pandas==0.14.1                  # Data handling                     # BSD
-scikit-learn==0.15.1            # ML/stats                          # BSD
-tox==1.7.2                      # Testing                           # MIT
+pandas==0.15.2                  # Data handling                     # BSD
+scikit-learn==0.15.2            # ML/stats                          # BSD
+statsmodels==0.6.1              # Statistics                        #
+tox==1.8.1                      # Testing                           # MIT
 detox==0.9.3                    # Testing                           # AGPLV3
-python-coveralls==2.4.2         # Coverage                          # Apache
-pyroma==1.6                     # Python packaging                  # MIT
-twine==1.3.1                    # Secure PyPI                       # Apache
+python-coveralls==2.4.3         # Coverage                          # Apache
+pyroma==1.7                     # Python packaging                  # MIT
+twine==1.4.0                    # Secure PyPI                       # Apache
 wheel==0.24.0                   # Wheel packaging                   # MIT
-flake8==2.2.3                   # Check your code                   # MIT
+flake8==2.3.0                   # Check your code                   # MIT
