@@ -40,12 +40,17 @@ setup(
         'celery',
         'django-analytical',
         'pytz',
+        'numpy',
+        'scipy',
+        'pandas',
+        'scikit-learn',
+        'patsy',
+        'statsmodels',
     ],
     extras_require={
         'statslibs': [
             'numpy',
             'scipy',
-            #  'matplotlib',
             'pandas',
             'scikit-learn',
             'patsy',
